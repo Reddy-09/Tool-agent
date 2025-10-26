@@ -1,0 +1,11 @@
+# Python artifacts and environment
+.venv/
+__pycache__/
+
+# Agent Development Kit secrets
+# Ignore all .env files anywhere in subdirectories
+**/.env
+# Ignore all .env files in the root directory
+.env
+# Ignore all Python compiled files
+**/*.pyc
